@@ -17,7 +17,7 @@ export const reqGetBannerList = () => mockRequests({ url: '/banner', method: 'ge
 //获取floor组件的数据
 export const reqFloorList = () => mockRequests.get('/floor')
 
-//获取search搜索页面得数据 /api/list 需要传递参数   正常接口总是崩溃
+//获取search搜索页面得数据 /api/list 需要传递参
 //参数params至少是一个空对象,得有一个默认值
 export const reqGetSearchInfo = (params) =>{
     return requests({
